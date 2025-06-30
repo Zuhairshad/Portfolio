@@ -16,20 +16,21 @@ const Projects = () => {
             className='mb-8 flex flex-wrap items-stretch lg:justify-center lg:gap-x-20 px-4'
           >
             {/* Left - Image */}
-            <motion.div
-              initial={{ x: -100, opacity: 0 }}
-              animate={isInView ? { x: 0, opacity: 1 } : { x: -100, opacity: 0 }}
-              transition={{ duration: 0.6 }}
-              className='w-full lg:w-1/4 flex justify-center lg:justify-end'
-            >
-              <div className='w-[150px] lg:w-[200px] h-full'>
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className='rounded-xl w-full h-full object-cover shadow-md'
-                />
-              </div>
-            </motion.div>
+           <motion.div
+  initial={{ x: -100, opacity: 0 }}
+  animate={isInView ? { x: 0, opacity: 1 } : { x: -100, opacity: 0 }}
+  transition={{ duration: 0.6 }}
+  className='w-full lg:w-1/4 flex justify-center lg:justify-end mb-6 lg:mb-0' // Add mb-6 on small screens
+>
+  <div className='w-[150px] lg:w-[200px] h-full'>
+    <img
+      src={project.image}
+      alt={project.title}
+      className='rounded-xl w-full h-full object-cover shadow-md'
+    />
+  </div>
+</motion.div>
+
 
             {/* Right - Text */}
             <motion.div
