@@ -1,13 +1,12 @@
 import React from "react";
-import logo from "../assets/kevinRushLogo.png";
-import { FaLinkedin, FaGithub, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
 
 const Navbar = () => {
   return (
     <nav className="mb-20 flex items-center justify-between py-6">
       {/* Logo */}
       <div className="flex flex-shrink-0 items-center">
-        <img className="mx-2 w-10" src={logo} alt="logo" />
+        <p className="mx-1 text-4xl w-20">Za</p>
       </div>
 
       {/* Social Icons */}

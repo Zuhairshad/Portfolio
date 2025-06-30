@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import { HERO_CONTENT } from '../constants';
-import profilePic from '../assets/kevinRushProfile.png';
+import profilePic from '../assets/1.png'; // Make sure this path points to your image
 import { motion, useInView } from 'framer-motion';
 
 const Hero = () => {
@@ -39,22 +39,16 @@ const Hero = () => {
         </motion.div>
 
         {/* Right Side: Image */}
-      <motion.div
-  initial={{ opacity: 0, y: 50 }}
-  animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
-  transition={{ duration: 0.8 }}
-  className='w-full lg:w-1/2 lg:p-8 flex items-center justify-center'
->
-  <div className='max-w-sm w-full aspect-square'>
+        
+        <div className='w-full lg:w-1/2 flex items-start justify-center lg:mt-14 lg:-mt-8 lg:ml-[-100px]'>
+  <div className='w-[60%]'>
     <img
       src={profilePic}
       alt="Profile"
-      className='rounded-2xl w-full h-full object-cover shadow-lg'
+      className='rounded-2xl w-full h-auto shadow-2xl'
     />
   </div>
-</motion.div>
-
-
+</div>
 
 
       </div>
