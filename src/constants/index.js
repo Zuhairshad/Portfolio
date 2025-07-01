@@ -74,13 +74,7 @@ export const PROJECTS = [
       "A complete and fully responsive e-commerce platform featuring product listings, user authentication, shopping cart functionality, order placement, and admin dashboard for product management. Integrated secure login/register system using JWT and password hashing. Backend APIs were built using Express.js and MongoDB, and frontend with React and Tailwind CSS. Designed for scalability and optimized performance.",
     technologies: ["React", "Node.js", "MongoDB", "Express.js", "TailwindCSS",],
   },
-  {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "A collaborative task and project management tool where users can create tasks, assign them to team members, set deadlines, and track progress. Implemented real-time updates and user authentication with Firebase. Built with Angular for a dynamic frontend experience and Firebase Firestore for backend data management. Features include drag-and-drop task sorting, status filters, and user notifications.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase", "Firestore", "TypeScript"],
-  },
+
   {
     title: "Client Portfolio Website",
     image: project3,
