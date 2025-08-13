@@ -44,7 +44,7 @@ const Hero = () => {
         transition={{ delay: 0.5, duration: 0.8 }}
         className="mt-10 w-full max-w-4xl"
       >
-        <AnimatedMacbook className="mx-auto max-w-2xl" />
+        <macbook className="mx-auto max-w-2xl" />
       </motion.div>
     </div>
   );
