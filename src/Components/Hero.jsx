@@ -36,16 +36,6 @@ const Hero = () => {
           {HERO_CONTENT}
         </p>
       </motion.div>
-
-      {/* Animated MacBook */}
-      <motion.div
-        initial={{ opacity: 0, scale: 0.9 }}
-        animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.9 }}
-        transition={{ delay: 0.5, duration: 0.8 }}
-        className="mt-10 w-full max-w-4xl"
-      >
-        <macbook className="mx-auto max-w-2xl" />
-      </motion.div>
     </div>
   );
 };
