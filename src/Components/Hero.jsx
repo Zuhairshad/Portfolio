@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { HERO_CONTENT } from "../constants";
 import { motion, useInView } from "framer-motion";
-import AnimatedMacbook from "../components/AnimatedMacbook";
+import macbook from "../components/macbook.jsx";
 
 const Hero = () => {
   const ref = useRef(null);
