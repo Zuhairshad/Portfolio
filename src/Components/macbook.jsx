@@ -1,7 +1,7 @@
 // components/AnimatedMacbook.jsx
 import { motion } from "framer-motion";
 
-export default function AnimatedMacbook({ className = "" }) {
+export default function macbook ({ className = "" }) {
   return (
     <motion.div
       className={className}
