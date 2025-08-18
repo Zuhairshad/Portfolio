@@ -32,4 +32,11 @@ const Hero = () => {
         </motion.span>
 
         <p className="my-4 max-w-xl py-6 font-light tracking-tight text-neutral-400 whitespace-pre-line mx-auto">
-          {
+          {HERO_CONTENT}
+        </p>
+      </motion.div>
+    </div>
+  );
+};
+
+export default Hero;
