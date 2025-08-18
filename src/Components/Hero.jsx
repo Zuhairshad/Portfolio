@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <div
       ref={ref}
-      className="border-b border-neutral-900 pb-4 lg:mb-35 min-h-screen flex flex-col items-center justify-center text-center px-4"
+      className="border-b border-neutral-900 pb-4 lg:mb-35 min-h-screen flex flex-col items-center justify-start text-center px-4 pt-24"
     >
       {/* Text Section */}
       <motion.div
@@ -18,7 +18,7 @@ const Hero = () => {
         transition={{ duration: 0.6 }}
         className="w-full max-w-3xl"
       >
-        <h1 className="pb-6 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl">
+        <h1 className="pb-6 text-6xl font-thin tracking-tight lg:mt-8 lg:text-8xl">
           Zuhair Ahmed
         </h1>
 
