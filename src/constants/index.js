@@ -27,6 +27,20 @@ export const EXPERIENCES = [
       
     ],
   },
+  {
+    year: "2023",
+    role: "Software Engineer Intern (MERN Stack)",
+    company: "IT Beasts",
+    description: `Collaborated with a team of developers to build and maintain scalable web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js). Developed dynamic frontend components with React and Tailwind CSS, and integrated them with backend APIs built in Node.js and Express. Worked with MongoDB for data modeling and storage, and implemented user authentication and secure data handling. Participated in code reviews, daily standups, and sprint planning, gaining hands-on experience in Agile methodologies and modern version control using Git and GitHub.`,
+    technologies: [
+      "MongoDB",
+      "Express.js",
+      "React.js",
+      "Next.js",
+      "Node.js",
+      
+    ],
+  },
 ];
 export const CERTIFICATIONS = [
   {
@@ -49,7 +63,7 @@ export const CERTIFICATIONS = [
     ],
   },
   {
-    year: "2024",
+    year: "2023",
     title: "The MERN Stack Guide",
     provider: "Udemy",
     description:
